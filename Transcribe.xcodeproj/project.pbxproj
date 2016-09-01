@@ -12,6 +12,8 @@
 		8543A8361D782D4900D06879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8543A8341D782D4900D06879 /* Main.storyboard */; };
 		8543A8381D782D4900D06879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8543A8371D782D4900D06879 /* Assets.xcassets */; };
 		8543A83B1D782D4900D06879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8543A8391D782D4900D06879 /* LaunchScreen.storyboard */; };
+		8543A8461D78330A00D06879 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8543A8451D78330A00D06879 /* CircleButton.swift */; };
+		8543A8491D783B4300D06879 /* Scarface.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8543A8481D783B4300D06879 /* Scarface.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8543A8371D782D4900D06879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8543A83A1D782D4900D06879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8543A83C1D782D4900D06879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8543A8451D78330A00D06879 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		8543A8481D783B4300D06879 /* Scarface.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scarface.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		8543A82F1D782D4900D06879 /* Transcribe */ = {
 			isa = PBXGroup;
 			children = (
+				8543A8471D783B3000D06879 /* Resources */,
+				8543A8421D7832D400D06879 /* Model */,
+				8543A8431D7832D900D06879 /* View */,
+				8543A8441D7832DD00D06879 /* Controller */,
 				8543A8301D782D4900D06879 /* AppDelegate.swift */,
-				8543A8321D782D4900D06879 /* ViewController.swift */,
 				8543A8341D782D4900D06879 /* Main.storyboard */,
 				8543A8371D782D4900D06879 /* Assets.xcassets */,
 				8543A8391D782D4900D06879 /* LaunchScreen.storyboard */,
 				8543A83C1D782D4900D06879 /* Info.plist */,
 			);
 			path = Transcribe;
+			sourceTree = "<group>";
+		};
+		8543A8421D7832D400D06879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8543A8431D7832D900D06879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8543A8451D78330A00D06879 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8543A8441D7832DD00D06879 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8543A8321D782D4900D06879 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8543A8471D783B3000D06879 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8543A8481D783B4300D06879 /* Scarface.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,7 @@
 			files = (
 				8543A83B1D782D4900D06879 /* LaunchScreen.storyboard in Resources */,
 				8543A8381D782D4900D06879 /* Assets.xcassets in Resources */,
+				8543A8491D783B4300D06879 /* Scarface.mp3 in Resources */,
 				8543A8361D782D4900D06879 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8543A8461D78330A00D06879 /* CircleButton.swift in Sources */,
 				8543A8331D782D4900D06879 /* ViewController.swift in Sources */,
 				8543A8311D782D4900D06879 /* AppDelegate.swift in Sources */,
 			);
